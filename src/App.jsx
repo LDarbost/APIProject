@@ -8,7 +8,6 @@ function App() {
     <>
     <NavBar></NavBar>
     <HeroSection></HeroSection>
-       
        <FeaturesSection></FeaturesSection>
        <DataComponent></DataComponent>
        

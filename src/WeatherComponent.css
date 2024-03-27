@@ -45,7 +45,7 @@
   .weather-item input:focus {
     border-color: none;
     outline: none;
-  }
+  } 
 
 .weather-item button {
 position: absolute;

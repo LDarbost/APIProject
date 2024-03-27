@@ -1,6 +1,6 @@
 .hero {
     /* background-image: url('https://source.unsplash.com/1600x900/?nature,landscape'); */
-    background-image: url('pic8.jpg');
+    background-image: url('pic8.jpg'); 
     background-size: cover;
     background-position: center;
     height: 500px;

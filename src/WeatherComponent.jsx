@@ -67,7 +67,7 @@ function WeatherComponent() {
           </div>
         )}
         </div>
-        {/* Second Card */}
+        {/* Second Card and Third Card*/}
         <div className='weather-item'></div>
         <div className='weather-item'></div>
         

@@ -1,4 +1,3 @@
-/* General styles */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,7 +8,6 @@
     font-family: 'Roboto', sans-serif;
   }
   
-  /* Navbar styles */
   .navbar {
     position: sticky;
     display: flex;
@@ -60,7 +58,7 @@
 
     .navbar-nav {
       gap: 0px;
-     
+    
     }
        
   }

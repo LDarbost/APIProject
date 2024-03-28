@@ -9,10 +9,10 @@ const Footer = () => {
           <div className="footer-section">
             <h3>About</h3>
             <ul>
-            <li><a href="/about">Read More</a></li>
-            <li><a href="/about">Sustainability</a></li>
-            <li><a href="/about">Values</a></li>
-            <li><a href="/about">Investments</a></li>
+              <li><a href="/about">Read More</a></li>
+              <li><a href="/about">Sustainability</a></li>
+              <li><a href="/about">Values</a></li>
+              <li><a href="/about">Investments</a></li>
             </ul>
           </div>
           <div className="footer-section">
@@ -24,21 +24,20 @@ const Footer = () => {
             </ul>
           </div>
           <div className="footer-section">
-            <h3>Contact</h3> <ul>
-                <li>
-            <a href="/contact">Instagram</a></li>
-            <li><a href="/contact">LinkedIn</a></li>
-            <li><a href="/contact">Facebook</a></li></ul>
+            <h3>Contact</h3> 
+            <ul> 
+              <li><a href="/contact">Instagram</a></li>
+              <li><a href="/contact">LinkedIn</a></li>
+              <li><a href="/contact">Facebook</a></li>
+            </ul>
           </div>
           <div className="footer-section">
             <h3>Company</h3>
             <ul>
-                <li>
-            <a href="/policy">Legal Policy</a></li>
-            <li><a href="/testimonials">Testimonials</a></li>
-            <li><a href="/conditions">Terms and Conditions</a></li></ul>
-          
-           
+              <li><a href="/policy">Legal Policy</a></li>
+              <li><a href="/testimonials">Testimonials</a></li>
+              <li><a href="/conditions">Terms and Conditions</a></li>
+           </ul>
           </div>
         </div>
         <div className="footer-bottom">

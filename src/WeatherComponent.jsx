@@ -4,7 +4,7 @@ import './WeatherComponent.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass} from "@fortawesome/free-solid-svg-icons";
 
-const API_KEY = '2b60d418053e4e05af291eaae9165dc6';
+const API_KEY = import.meta.env.VITE_SOME_KEY;
 
 function WeatherComponent() {
   const [city, setCity] = useState('');

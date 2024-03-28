@@ -1,8 +1,9 @@
 # React Weather API 
-
 ------------------------------
-kjdkdnhwkdn
+ This is a weather API , where it is city-based. 
 ---------------------------
-jdajdakjdkajd
++ HTML
++ CSS
++ React
 ----------------
 

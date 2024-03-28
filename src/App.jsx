@@ -2,7 +2,7 @@ import HeroSection from './HeroSection'
 import NavBar from './NavBar'
 import DataComponent from './WeatherComponent'
 import FeaturesSection from './FeaturesSection'
-
+import Footer from './Footer'
 function App() {
    return (
     <>
@@ -10,6 +10,7 @@ function App() {
     <HeroSection></HeroSection>
        <FeaturesSection></FeaturesSection>
        <DataComponent></DataComponent>
+       <Footer></Footer>
        
        
     </>

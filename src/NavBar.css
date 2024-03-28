@@ -20,6 +20,7 @@
     padding: 20px;
     top: 0px;
     z-index: 2;
+    overflow: hidden;
   }
   
   .navbar-brand a {
@@ -36,7 +37,7 @@
   }
   
   .nav-item {
-    margin-left: 20px;
+    margin-left: px;
   }
   
   .nav-link {
@@ -50,4 +51,16 @@
   .nav-link:hover {
     background-color: #555;
     border-radius: 5px;
+  }
+
+  @media screen and (max-width: 863px) {
+    .navbar {
+      flex-direction: column; 
+    }
+
+    .navbar-nav {
+      gap: 0px;
+     
+    }
+       
   }

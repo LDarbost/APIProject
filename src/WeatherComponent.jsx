@@ -51,7 +51,7 @@ function WeatherComponent() {
           value={city}
           onChange={handleInputChange}
         />
-        <button className="button-85" role="button" onClick={handleButtonClick}><FontAwesomeIcon icon={faMagnifyingGlass} /></button>
+        <button className="button-85" role="button" onClick={handleButtonClick}><FontAwesomeIcon className='icon-button'icon={faMagnifyingGlass} /></button>
         {loading && <div>Loading...</div>}
         {error && <div className='Error'>Error: {error}</div>}
         {weatherData && (

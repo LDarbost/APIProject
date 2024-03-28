@@ -32,7 +32,6 @@
   display: flex;
   width: 362px;
   height: 48px;
-  /* background: #ebfffc; */
   background-color: #fff;
   border: none;
   border-radius: 30px;
@@ -40,6 +39,7 @@
   color: #222;
   font-size: 20px;
   font-weight: 400;
+  
   }
  
   .weather-item input:focus {
@@ -107,6 +107,7 @@ color: #2d2d2d ;
   background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('pic3.jpg') ;
   background-size: cover;
   order: 1;
+ 
 }
 .weather-item:nth-child(2) {
   background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('pic1.jpg') ;
@@ -124,3 +125,58 @@ order: 0;
 body {
   background-color: #111;
 }
+
+
+@media screen and (max-width: 1295px) {
+  .weather-container {
+     height: 1000px;
+     text-align: center;
+  }
+  .weather-item:nth-child(1) {
+    order: 2;
+  }
+  .weather-item:nth-child(2) {
+    order: 0;
+  }.weather-item:nth-child(3) {
+    order: 1;
+  }
+}
+
+
+@media screen and (max-width: 863px) {
+  .weather-container {
+     height: 1400px;
+     text-align: center;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 480px) {
+.weather-container {
+  height: 1400px;
+  
+}
+
+}
+
+@media screen and (max-width: 370px) {
+  .weather-item:nth-child(1) {
+    width: 100%;
+  }
+
+.weather-item input {
+  width: 100%;
+  position: relative;
+}
+
+.icon-button {
+position: absolute;
+right: 100px;
+
+  
+  }
+}
+  

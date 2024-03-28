@@ -8,5 +8,5 @@
 ### Features
 + HTML
 + CSS
-+ React
++ React.js
 ----------------

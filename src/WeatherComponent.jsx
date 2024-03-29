@@ -50,6 +50,7 @@ function WeatherComponent() {
           placeholder="Enter city name"
           value={city}
           onChange={handleInputChange}
+          autoComplete='off'
         />
         <button className="button-85" role="button" onClick={handleButtonClick}><FontAwesomeIcon className='icon-button'icon={faMagnifyingGlass} /></button>
         {loading && <div></div>}
